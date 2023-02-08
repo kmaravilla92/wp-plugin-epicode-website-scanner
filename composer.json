@@ -1,0 +1,15 @@
+{
+    "name": "epicode/epicode",
+    "autoload": {
+        "psr-4": {
+            "Epicode\\WebsiteScanner\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {
+        "symfony/dom-crawler": "^5.3",
+        "symfony/css-selector": "^5.3"
+    }
+}
